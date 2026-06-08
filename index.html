@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dragon Telemetry - Showcase</title>
-    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="src/css/style.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Saira:wght@400;600&display=swap"
         rel="stylesheet">
@@ -13,7 +13,20 @@
 
 <body>
     <header>
-        <div class="logo">🚀 DRAGON TELEMETRY</div>
+        <div class="logo">
+            <svg height="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                <rect width="32" height="32" rx="7" fill="#0a1128" />
+                <g transform="translate(4 4)" fill="none" stroke="#00d4ff" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path
+                        d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" />
+                    <path
+                        d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z" />
+                    <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
+                </g>
+            </svg>
+            DRAGON TELEMETRY
+        </div>
         <nav>
             <ul id="menu">
                 <li><a href="#" data-target="problema" class="active">O Problema</a></li>
@@ -128,13 +141,14 @@
                     <li><strong>Dashboard Principal:</strong> Monitoramento ao vivo (LIVE) com capacidade de pausar
                         (HOLD) o tempo real para análise imediata.</li>
                     <li><strong>Histórico Investigativo:</strong> Tabelas completas com as últimas 60 leituras e filtros
-                        inteligentes (Todas/Críticas/Alertas/Normais) para auditoria.</li>
+                        inteligentes (Tudo/Críticas/Alertas/Normais) para auditoria.</li>
                     <li><strong>Análise de Relatórios:</strong> Geração de estatísticas (mínimo, médio e máximo) e
                         gráficos de barra para estudo pós-incidente.</li>
                 </ul>
-                <img height="400px" src="/src/assets/imgs/dashboard_preview.png">
+                <img height="400px" src="src/assets/imgs/dashboard_preview.png"
+                    alt="Preview do Dashboard Dragon Telemetry">
                 <div style="margin-top: 2rem; text-align: center;">
-                    <a href="https://dragontelemetry.vercel.app" target="_blank" class="btn">Acessar Sistema Real 🚀</a>
+                    <a href="https://dragontelemetry.vercel.app" target="_blank" class="btn">Acessar Sistema Real</a>
                 </div>
             </div>
         </section>
